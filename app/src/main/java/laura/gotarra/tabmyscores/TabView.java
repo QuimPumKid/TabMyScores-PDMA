@@ -24,7 +24,7 @@ public class TabView extends View {
     public TabView(Context context) {
         super(context);
         //chords_frets = new ArrayList<>();
-        F = new TabFret();
+        F = new TabFret(); // Classe pels acords
     }
 
     public TabView(Context context, @Nullable AttributeSet attrs) {
